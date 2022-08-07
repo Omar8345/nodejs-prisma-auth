@@ -1,0 +1,28 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "mycli-auth": "index.js"
+  },
+  "keywords": [
+    "prisma",
+    "nodejs",
+    "nextjs",
+    "mysql",
+    "planetscale"
+  ],
+  "author": "Omar Moustafa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Omar8345/nodejs-prisma-auth.git"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
